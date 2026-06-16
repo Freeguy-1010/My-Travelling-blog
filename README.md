@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>My Travel Blog</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+    <h1>My Travel Blog</h1>
+    <nav>
+        <ul>
+            <li><a href="#post1">Post 1</a></li>
+            <li><a href="#post2">Post 2</a></li>
+            <li><a href="#post3">Post 3</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+
+<section class="post" id="post1">
+    <h2>Exploring the Mountains</h2>
+    <img src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=800" alt="Mountains">
+    <p><strong>Date:</strong> June 1, 2025</p>
+    <p>
+        The mountains offer breathtaking views and amazing hiking experiences.
+        During this trip, I explored several trails and enjoyed nature.
+		But most important is I got to get over my fear of heights ot I hope.
+    </p>
+</section>
+
+<section class="post" id="post2">
+    <h2>A Day at the Beach</h2>
+    <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800" alt="Beach">
+    <p><strong>Date:</strong> June 5, 2025</p>
+    <p>
+        Spending time at the beach is always relaxing. The warm sand,
+        beautiful ocean, and fresh air make it a perfect destination.
+		But the hard part of it was learning how to swim 
+		while taking in salty water such an experience 
+    </p>
+</section>
+
+<section class="post" id="post3">
+    <h2>Discovering a New City</h2>
+    <img src="https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?w=800" alt="City">
+    <p><strong>Date:</strong> June 11, 2025</p>
+    <p>
+        Visiting a new city allows you to experience different cultures,
+        food, and architecture. It was an unforgettable adventure.
+    </p>
+</section>
+
+</main>
+
+<footer>
+    <p>&copy; 2026 My Travel Blog. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family: Arial, sans-serif;
+    background:#f4f4f4;
+    line-height:1.6;
+}
+
+header{
+    background:#2c3e50;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+
+nav ul{
+    list-style:none;
+    margin-top:10px;
+}
+
+nav ul li{
+    display:inline;
+    margin:0 15px;
+}
+
+nav ul li a{
+    color:white;
+    text-decoration:none;
+    font-weight:bold;
+}
+
+nav ul li a:hover{
+    color:#f39c12;
+}
+
+.post{
+    background:white;
+    width:80%;
+    margin:30px auto;
+    padding:20px;
+    border-radius:10px;
+    box-shadow:0 0 10px rgba(0,0,0,0.1);
+}
+
+.post img{
+    width:100%;
+    border-radius:10px;
+    margin:15px 0;
+}
+
+.post h2{
+    color:#2c3e50;
+}
+
+footer{
+    background:#2c3e50;
+    color:white;
+    text-align:center;
+    padding:15px;
+    margin-top:20px;
+}
